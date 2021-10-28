@@ -944,11 +944,11 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`Y U Z Z U 右`
+menu =`ismail`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'📑SHOW MENU'},type:1},
-{buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🔖SCRIPT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'⛔menu'},type:1},
+{buttonId:`owner`,buttonText:{displayText:'⛔owner'},type:1},
+{buttonId:`script`,buttonText:{displayText:'⛔skip'},type:1}
 ]
 mhan = await denz.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const buttonMessages = {
@@ -992,10 +992,10 @@ TIME-INFO
 - Wit : ${timeWit}  
 - Hari : ${week} ${weton}
 - Tanggal : ${calender}`
-sendButLocation(from, `${menu}`, "Y U Z Z U 右", {jpegThumbnail:gambar,name:""}, [
-{buttonId:`allmenu`,buttonText:{displayText:'📑SHOW MENU'},type:1},
-{buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🔖SCRIPT'},type:1}
+sendButLocation(from, `${menu}`, "ismail", {jpegThumbnail:gambar,name:""}, [
+{buttonId:`allmenu`,buttonText:{displayText:'⛔menu'},type:1},
+{buttonId:`owner`,buttonText:{displayText:'⛔owner'},type:1},
+{buttonId:`script`,buttonText:{displayText:'⛔skip'},type:1}
 ], {contextInfo: { mentionedJid: [otod]}})
 }
            	break
@@ -1236,13 +1236,13 @@ menu =`╭─❒ 「 INFO 」 ❒──❒
 ├ ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
 ├ ${prefix}sharelock [ _teks1|teks2_ ]
 └─────────────────❒`
-sendButLocation(from, `${menu}`, "Y U Z Z U 右", {jpegThumbnail:gambar,name:""}, [{buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},{buttonId:`script`,buttonText:{displayText:'📒SCRIPT'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+sendButLocation(from, `${menu}`, "ismail", {jpegThumbnail:gambar,name:""}, [{buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},{buttonId:`script`,buttonText:{displayText:'📒SCRIPT'},type:1}], {contextInfo: { mentionedJid: [otod]}})
 break
 case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Dcode Denpa_*',
+ footerText: '*_ismail_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -4157,7 +4157,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
+     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6283805279906?text=Assalamualaikum"}}})
 	}
     }
     }
