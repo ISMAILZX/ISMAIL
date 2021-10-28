@@ -1678,7 +1678,7 @@ case 'meme':
 reply(mess.wait)
 anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/darkjokes?apikey=${YuzApi}`)
 buff = await getBuffer(anu.result.result)
-gbutsan = [{buttonId:`meme`,buttonText:{displayText:'LANJUT➡️'},type:1}]
+gbutsan = [{buttonId:`meme`,buttonText:{displayText:'⚠️up'},type:1}]
 mhan = await denz.prepareMessage(from, buff, image, {thumbnail: buff})
 const buttonMessagessss = {
 imageMessage: mhan.message.imageMessage,
@@ -1826,20 +1826,20 @@ break
 				case 'script':
 		case 'sc':
 		case 'sourcecode':
-		anu =`╭─❒ SCRIPT
-│◦➛Base : Denis Putra
-│◦➛Recode : Yuzzu Kamiyaka
+		anu =`╭─❒ error
+│◦➛error
+│◦➛error
 │
-└──────[ GITHUB ]──────❒
-  │◦➛Script Ory :
-  │◦➛https://github.com/dcode-denpa/bitch-boot
-  │◦➛Script Recode : 
-  │◦➛https://github.com/YuzzuKamiyaka/bitch-bot
+└──────[ error ]──────❒
+  │◦➛error
+  │◦➛error
+  │◦➛error
+  │◦➛error
   └──────────────────❒`
-const buttons = [{buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER👤'}, type: 1}]
+const buttons = [{buttonId: `menu`, buttonText: {displayText: '⚠️bck'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER👤'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_ismail_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2116,7 +2116,7 @@ break
 		}
 			  break
 case 'mode':
-buttonss = [{buttonId: `public`, buttonText: {displayText: 'PUBLIC👥'}, type: 1},{buttonId: `self`, buttonText: {displayText: 'SELF👤'}, type: 1}]
+buttonss = [{buttonId: `public`, buttonText: {displayText: 'republik'}, type: 1},{buttonId: `self`, buttonText: {displayText: 'SELF👤'}, type: 1}]
 const buMess = {
     contentText: "SELF/PUBLIC",
     footerText: 'Silahkan Pilih Saah Satu',
