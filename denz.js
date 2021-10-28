@@ -1836,7 +1836,7 @@ break
   │◦➛error
   │◦➛error
   └──────────────────❒`
-const buttons = [{buttonId: `menu`, buttonText: {displayText: '⚠️bck'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER👤'}, type: 1}]
+const buttons = [{buttonId: `menu`, buttonText: {displayText: '⚠️bck'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'alone'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
     footerText: '*_ismail_*',
@@ -2116,7 +2116,7 @@ break
 		}
 			  break
 case 'mode':
-buttonss = [{buttonId: `public`, buttonText: {displayText: 'republik'}, type: 1},{buttonId: `self`, buttonText: {displayText: 'SELF👤'}, type: 1}]
+buttonss = [{buttonId: `public`, buttonText: {displayText: 'republik'}, type: 1},{buttonId: `self`, buttonText: {displayText: 'alone'}, type: 1}]
 const buMess = {
     contentText: "SELF/PUBLIC",
     footerText: 'Silahkan Pilih Saah Satu',
@@ -4157,7 +4157,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6283805279906?text=Assalamualaikum"}}})
+     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dev",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6283805279906?text=Assalamualaikum"}}})
 	}
     }
     }
